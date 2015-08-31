@@ -7838,12 +7838,12 @@
 						</NamedType>
 					</type>
 					<value>
-						<!-- {valid : true, whichMode : M_MODE_Full_Supervision, SH_Req_RefusedByRBC : false, ... -->
+						<!-- {valid : false, whichMode : M_MODE_Full_Supervision, SH_Req_RefusedByRBC : false,... -->
 						<DataStructOp>
 							<data>
 								<LabelledExpression label="valid">
 									<flow>
-										<ConstValue value="true"/>
+										<ConstValue value="false"/>
 									</flow>
 								</LabelledExpression>
 								<LabelledExpression label="whichMode">
@@ -7862,7 +7862,7 @@
 								</LabelledExpression>
 								<LabelledExpression label="LevelNeedsAck">
 									<flow>
-										<ConstValue value="true"/>
+										<ConstValue value="false"/>
 									</flow>
 								</LabelledExpression>
 								<LabelledExpression label="newLevel">
@@ -7878,7 +7878,7 @@
 									<flow>
 										<IdExpression>
 											<path>
-												<ConstVarRef name="M_LEVEL_Level_NTC_specified_by_NID_NTC"/>
+												<ConstVarRef name="M_LEVEL_Level_2"/>
 											</path>
 										</IdExpression>
 									</flow>
