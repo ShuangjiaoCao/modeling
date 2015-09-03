@@ -22926,10 +22926,10 @@
 								</LabelledExpression>
 								<LabelledExpression label="GradientProfile">
 									<flow>
-										<!-- [{valid : true, Loc_Absolute : 0, Loc_LRBG : 0, Gradient : 1, L_Gradient : 10000}... -->
+										<!-- [{valid : true, Loc_Absolute : 280100, Loc_LRBG : 0, Gradient : 1, L_Gradient : 1... -->
 										<DataArrayOp>
 											<data>
-												<!-- {valid : true, Loc_Absolute : 0, Loc_LRBG : 0, Gradient : 1, L_Gradient : 10000} -->
+												<!-- {valid : true, Loc_Absolute : 280100, Loc_LRBG : 0, Gradient : 1, L_Gradient : 10... -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -22939,7 +22939,7 @@
 														</LabelledExpression>
 														<LabelledExpression label="Loc_Absolute">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="280100"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="Loc_LRBG">
@@ -22954,12 +22954,12 @@
 														</LabelledExpression>
 														<LabelledExpression label="L_Gradient">
 															<flow>
-																<ConstValue value="10000"/>
+																<ConstValue value="100000"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : true, Loc_Absolute : 10000, Loc_LRBG : 10000, Gradient : (-1), L_Gradien... -->
+												<!-- {valid : true, Loc_Absolute : 380100, Loc_LRBG : 1000, Gradient : (-1), L_Gradien... -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -22969,12 +22969,12 @@
 														</LabelledExpression>
 														<LabelledExpression label="Loc_Absolute">
 															<flow>
-																<ConstValue value="10000"/>
+																<ConstValue value="380100"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="Loc_LRBG">
 															<flow>
-																<ConstValue value="10000"/>
+																<ConstValue value="1000"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="Gradient">
