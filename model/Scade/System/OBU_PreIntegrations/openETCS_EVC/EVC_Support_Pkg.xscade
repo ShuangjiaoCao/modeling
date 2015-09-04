@@ -16116,15 +16116,15 @@
 						</NamedType>
 					</type>
 					<value>
-						<!-- {GradientProfile : [{valid : true, begin_section : 280100, end_section : 380100, ... -->
+						<!-- {GradientProfile : [{valid : true, begin_section : 280100, end_section : 366200, ... -->
 						<DataStructOp>
 							<data>
 								<LabelledExpression label="GradientProfile">
 									<flow>
-										<!-- [{valid : true, begin_section : 280100, end_section : 380100, gradient : 1}, {val... -->
+										<!-- [{valid : true, begin_section : 280100, end_section : 366200, gradient : 6}, {val... -->
 										<DataArrayOp>
 											<data>
-												<!-- {valid : true, begin_section : 280100, end_section : 380100, gradient : 1} -->
+												<!-- {valid : true, begin_section : 280100, end_section : 366200, gradient : 6} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -16139,17 +16139,17 @@
 														</LabelledExpression>
 														<LabelledExpression label="end_section">
 															<flow>
-																<ConstValue value="380100"/>
+																<ConstValue value="366200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="gradient">
 															<flow>
-																<ConstValue value="1"/>
+																<ConstValue value="6"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : true, begin_section : 380100, end_section : 420100, gradient : (-1)} -->
+												<!-- {valid : true, begin_section : 366200, end_section : 381200, gradient : (-5)} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -16159,12 +16159,37 @@
 														</LabelledExpression>
 														<LabelledExpression label="begin_section">
 															<flow>
-																<ConstValue value="380100"/>
+																<ConstValue value="366200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="end_section">
 															<flow>
-																<ConstValue value="420100"/>
+																<ConstValue value="381200"/>
+															</flow>
+														</LabelledExpression>
+														<LabelledExpression label="gradient">
+															<flow>
+																<ConstValue value="-5"/>
+															</flow>
+														</LabelledExpression>
+													</data>
+												</DataStructOp>
+												<!-- {valid : true, begin_section : 381200, end_section : 404200, gradient : (-1)} -->
+												<DataStructOp>
+													<data>
+														<LabelledExpression label="valid">
+															<flow>
+																<ConstValue value="true"/>
+															</flow>
+														</LabelledExpression>
+														<LabelledExpression label="begin_section">
+															<flow>
+																<ConstValue value="381200"/>
+															</flow>
+														</LabelledExpression>
+														<LabelledExpression label="end_section">
+															<flow>
+																<ConstValue value="404200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="gradient">
@@ -16174,122 +16199,97 @@
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : false, begin_section : 0, end_section : 0, gradient : 0} -->
+												<!-- {valid : true, begin_section : 404200, end_section : 408200, gradient : (-13)} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
 															<flow>
-																<ConstValue value="false"/>
+																<ConstValue value="true"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="begin_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="404200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="end_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="408200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="gradient">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="-13"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : false, begin_section : 0, end_section : 0, gradient : 0} -->
+												<!-- {valid : true, begin_section : 408200, end_section : 427200, gradient : (-7)} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
 															<flow>
-																<ConstValue value="false"/>
+																<ConstValue value="true"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="begin_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="408200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="end_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="427200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="gradient">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="-7"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : false, begin_section : 0, end_section : 0, gradient : 0} -->
+												<!-- {valid : true, begin_section : 427200, end_section : 443200, gradient : (-3)} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
 															<flow>
-																<ConstValue value="false"/>
+																<ConstValue value="true"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="begin_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="427200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="end_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="443200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="gradient">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="-3"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : false, begin_section : 0, end_section : 0, gradient : 0} -->
+												<!-- {valid : true, begin_section : 443200, end_section : 501200, gradient : 0} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
 															<flow>
-																<ConstValue value="false"/>
+																<ConstValue value="true"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="begin_section">
 															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="443200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="end_section">
 															<flow>
-																<ConstValue value="0"/>
-															</flow>
-														</LabelledExpression>
-														<LabelledExpression label="gradient">
-															<flow>
-																<ConstValue value="0"/>
-															</flow>
-														</LabelledExpression>
-													</data>
-												</DataStructOp>
-												<!-- {valid : false, begin_section : 0, end_section : 0, gradient : 0} -->
-												<DataStructOp>
-													<data>
-														<LabelledExpression label="valid">
-															<flow>
-																<ConstValue value="false"/>
-															</flow>
-														</LabelledExpression>
-														<LabelledExpression label="begin_section">
-															<flow>
-																<ConstValue value="0"/>
-															</flow>
-														</LabelledExpression>
-														<LabelledExpression label="end_section">
-															<flow>
-																<ConstValue value="0"/>
+																<ConstValue value="501200"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="gradient">
