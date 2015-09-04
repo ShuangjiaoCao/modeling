@@ -13825,10 +13825,10 @@
 								</LabelledExpression>
 								<LabelledExpression label="MRSP">
 									<flow>
-										<!-- [{valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 140}, {valid : true, Lo... -->
+										<!-- [{valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 160}, {valid : true, Lo... -->
 										<DataArrayOp>
 											<data>
-												<!-- {valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 140} -->
+												<!-- {valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 160} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -13848,12 +13848,12 @@
 														</LabelledExpression>
 														<LabelledExpression label="MRS">
 															<flow>
-																<ConstValue value="140"/>
+																<ConstValue value="160"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : true, Loc_Abs : 400000, Loc_LRBG : 119900, MRS : 280} -->
+												<!-- {valid : true, Loc_Abs : 400000, Loc_LRBG : 119900, MRS : 120} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -13873,12 +13873,12 @@
 														</LabelledExpression>
 														<LabelledExpression label="MRS">
 															<flow>
-																<ConstValue value="280"/>
+																<ConstValue value="120"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : true, Loc_Abs : 500000, Loc_LRBG : 219900, MRS : 10} -->
+												<!-- {valid : true, Loc_Abs : 500000, Loc_LRBG : 219900, MRS : 140} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -13898,7 +13898,7 @@
 														</LabelledExpression>
 														<LabelledExpression label="MRS">
 															<flow>
-																<ConstValue value="10"/>
+																<ConstValue value="140"/>
 															</flow>
 														</LabelledExpression>
 													</data>
@@ -20880,10 +20880,10 @@
 								</LabelledExpression>
 								<LabelledExpression label="MRSP">
 									<flow>
-										<!-- [{valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 140}, {valid : true, Lo... -->
+										<!-- [{valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 160}, {valid : true, Lo... -->
 										<DataArrayOp>
 											<data>
-												<!-- {valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 140} -->
+												<!-- {valid : true, Loc_Abs : 300000, Loc_LRBG : 19900, MRS : 160} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -20903,12 +20903,12 @@
 														</LabelledExpression>
 														<LabelledExpression label="MRS">
 															<flow>
-																<ConstValue value="140"/>
+																<ConstValue value="160"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : true, Loc_Abs : 400000, Loc_LRBG : 119900, MRS : 280} -->
+												<!-- {valid : true, Loc_Abs : 400000, Loc_LRBG : 119900, MRS : 120} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -20928,12 +20928,12 @@
 														</LabelledExpression>
 														<LabelledExpression label="MRS">
 															<flow>
-																<ConstValue value="280"/>
+																<ConstValue value="120"/>
 															</flow>
 														</LabelledExpression>
 													</data>
 												</DataStructOp>
-												<!-- {valid : true, Loc_Abs : 500000, Loc_LRBG : 219900, MRS : 10} -->
+												<!-- {valid : true, Loc_Abs : 500000, Loc_LRBG : 219900, MRS : 140} -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
@@ -20953,7 +20953,7 @@
 														</LabelledExpression>
 														<LabelledExpression label="MRS">
 															<flow>
-																<ConstValue value="10"/>
+																<ConstValue value="140"/>
 															</flow>
 														</LabelledExpression>
 													</data>
