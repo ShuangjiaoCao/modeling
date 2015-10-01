@@ -7201,6 +7201,7 @@
 			<value>DMI_Control_Pkg::Sub_func::Keyboard::ReplaceDigit_iterator</value>
 			<value>MoRC_Pck::Subfunc_Pkg::RBCTransition_forSafeRadioConnectionIndication</value>
 			<value>MoRC_Pck::MoRC_Main</value>
+			<value>ComputeDistDisplay</value>
 			<value>RBC_Config_Pkg::PosRepParams__Get_D_CYCLOC</value>
 			<value>RBC_Config_Pkg::DynamicConfig__SetPosRepParams</value>
 			<value>RBC_Messaging_Pkg::RBC_RadioTrackTrain_Pkg::RBC_RadioTrackTrainPacket058_Pkg::RadioTrackTrainPacket058__Set_Q_DIR</value>

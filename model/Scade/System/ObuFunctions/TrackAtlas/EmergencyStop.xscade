@@ -2683,12 +2683,12 @@
 													<type>
 														<NamedType>
 															<type>
-																<TypeRef name="NID_EM"/>
+																<TypeRef name="int"/>
 															</type>
 														</NamedType>
 													</type>
 													<pragmas>
-														<ed:Field oid="!ed/e8a66/4866/CC/55d1d53362d8"/>
+														<ed:Field oid="!ed/69c1c/3B12/3010/560d0da058ff"/>
 													</pragmas>
 												</Field>
 												<Field name="valid">
@@ -2700,7 +2700,7 @@
 														</NamedType>
 													</type>
 													<pragmas>
-														<ed:Field oid="!ed/e8a67/4866/CC/55d1d533470e"/>
+														<ed:Field oid="!ed/69c1d/3B12/3010/560d0da064c0"/>
 													</pragmas>
 												</Field>
 											</fields>
