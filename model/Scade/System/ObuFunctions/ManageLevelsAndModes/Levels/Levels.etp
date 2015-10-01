@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="199" defaultConfiguration="21">
+<Project id="1" oid_count="130" defaultConfiguration="21">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -312,12 +312,6 @@
 			<value>Levels.rtf</value>
 			<configuration>31</configuration>
 		</Prop>
-		<Prop id="131" name="@SCADE:ASSTRING_TRIM">
-			<value></value>
-		</Prop>
-		<Prop id="132" name="@TRACEABILITY:Project">
-			<value>Levels.rqtf</value>
-		</Prop>
 	</props>
 	<roots>
 		<Folder id="3" extensions="vsp;etp" name="SCADE Libraries">
@@ -332,83 +326,8 @@
 		</Folder>
 		<Folder id="11" extensions="xscade;scade" name="Model Files">
 			<elements>
-				<Folder id="12" extensions="xscade;scade" name="Separate Files">
-					<elements>
-						<FileRef id="134" persistAs="LevelTransitionSelection.xscade"/>
-						<FileRef id="136" persistAs="SelectLevelTransition.xscade">
-							<props>
-								<Prop id="135" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="138" persistAs="SelectNormalTransition.xscade">
-							<props>
-								<Prop id="137" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="140" persistAs="SelectConditionnalTransition.xscade">
-							<props>
-								<Prop id="139" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="142" persistAs="SelectDriverCondition.xscade">
-							<props>
-								<Prop id="141" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="144" persistAs="IsInPriorityTable.xscade">
-							<props>
-								<Prop id="143" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="162" persistAs="IsSelectedTransition.xscade">
-							<props>
-								<Prop id="161" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="193" persistAs="RBCSessionRequests.xscade">
-							<props>
-								<Prop id="192" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="195" persistAs="TripRequests.xscade">
-							<props>
-								<Prop id="194" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="197" persistAs="ComputeNewLevel.xscade">
-							<props>
-								<Prop id="196" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-						<FileRef id="199" persistAs="ProceedOnLevelChange.xscade">
-							<props>
-								<Prop id="198" name="@SCADE:NONROOT">
-									<value>true</value>
-								</Prop>
-							</props>
-						</FileRef>
-					</elements>
-				</Folder>
-				<FileRef id="156" persistAs="ManageLevels.xscade"/>
-				<FileRef id="189" persistAs="LevelChangement.xscade"/>
+				<Folder id="12" extensions="xscade;scade" name="Separate Files"/>
+				<FileRef id="127" persistAs="Levels_Pkg.xscade"/>
 			</elements>
 		</Folder>
 		<Folder id="84" name="Design Verifier File"/>

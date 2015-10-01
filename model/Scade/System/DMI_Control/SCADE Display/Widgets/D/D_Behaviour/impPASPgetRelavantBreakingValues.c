@@ -14,6 +14,14 @@ void impPASPgetRelavantBreakingValues_PASP(
 
 	(*FilteredDistances[0]) = (*Distances[0]);
 	(*filteredSpeeds[0]) = (kcg_real)4.0;
+	
+	for(i = 1; i <= 8; i++)
+	{
+		if((*FilteredDistances)[i] == 0.0)
+		{
+			(*FilteredDistances)[i] = (*FilteredDistances)[i-1];
+		}
+	}
 
 	for (i = 0; i <= 7; i++) {
 		kcg_int speedLevel1 = utilGetSpeedLevel((*Speeds)[i+1], CPS);
