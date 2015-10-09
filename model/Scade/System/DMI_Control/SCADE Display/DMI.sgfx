@@ -2,7 +2,7 @@
 
 <?dom version="R16" ?>
 
-<?scade_release version="R16.1" ?>
+<?scade_release version="R16" ?>
 
 <specification>
     <IDE>
