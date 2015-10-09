@@ -7464,7 +7464,7 @@
 				</NamedType>
 			</type>
 			<value>
-				<!-- {valid : true, info : {train_status : {valid : false, m_sleeping_st : TIU_Types_P... -->
+				<!-- {valid : true, info : {train_status : {valid : true, m_sleeping_st : TIU_Types_Pk... -->
 				<DataStructOp>
 					<data>
 						<LabelledExpression label="valid">
@@ -7474,17 +7474,17 @@
 						</LabelledExpression>
 						<LabelledExpression label="info">
 							<flow>
-								<!-- {train_status : {valid : false, m_sleeping_st : TIU_Types_Pkg::signal_active, m_p... -->
+								<!-- {train_status : {valid : true, m_sleeping_st : TIU_Types_Pkg::signal_active, m_pa... -->
 								<DataStructOp>
 									<data>
 										<LabelledExpression label="train_status">
 											<flow>
-												<!-- {valid : false, m_sleeping_st : TIU_Types_Pkg::signal_active, m_passiveshunting_s... -->
+												<!-- {valid : true, m_sleeping_st : TIU_Types_Pkg::signal_active, m_passiveshunting_st... -->
 												<DataStructOp>
 													<data>
 														<LabelledExpression label="valid">
 															<flow>
-																<ConstValue value="false"/>
+																<ConstValue value="true"/>
 															</flow>
 														</LabelledExpression>
 														<LabelledExpression label="m_sleeping_st">

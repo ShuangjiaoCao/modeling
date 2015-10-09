@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="274" defaultConfiguration="21">
+<Project id="1" oid_count="276" defaultConfiguration="21">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -11056,7 +11056,6 @@
 			<configuration>243</configuration>
 		</Prop>
 		<Prop id="249" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
-			<value>..\..\DMI_Control\SCADE Display\DMI.sgfx,Co-simulation</value>
 			<value>..\DebugPanel\MainScreen.rgfx,Co-simulation</value>
 			<configuration>243</configuration>
 		</Prop>
@@ -11137,7 +11136,7 @@
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="272" name="@GENERATOR:DISPLAY_ENABLED_PANELS">
-			<value>..\..\DMI_Control\SCADE Display\DMI.sgfx,Windows: DMI</value>
+			<value>..\..\DMI_Control\SCADE Display\DMI.sgfx,Co-simulation</value>
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="273" name="@GENERATOR:OBSERVE_MODE">
@@ -11147,6 +11146,14 @@
 		<Prop id="274" name="@GENERATOR:EXPAND_MODE">
 			<value>2</value>
 			<configuration>259</configuration>
+		</Prop>
+		<Prop id="275" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
+			<value>..\..\DMI_Control\SCADE Display\DMI.sgfx</value>
+			<configuration>243</configuration>
+		</Prop>
+		<Prop id="276" name="@GENERATOR:TARGET_DIR">
+			<value>EVC_TCP</value>
+			<configuration>243</configuration>
 		</Prop>
 	</props>
 	<roots>
