@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="277" defaultConfiguration="21">
+<Project id="1" oid_count="293" defaultConfiguration="21">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -40,6 +40,7 @@
 			<value>217</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="22" name="@GENERATOR:TARGET_DIR">
 			<value>Simulation</value>
@@ -85,6 +86,7 @@
 			<value>63</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="37" name="@REPORTER:FORMAT">
 			<value>rtf</value>
@@ -107,6 +109,7 @@
 			<value>41</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="43" name="@GENERATOR:TARGET_DIR">
 			<value>$(Configuration)</value>
@@ -173,6 +176,7 @@
 			<value>52</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="61" name="@DASHBOARD:SCRIPT">
 			<value>DashBoard/DashBoardReport.tcl</value>
@@ -183,6 +187,7 @@
 			<value>60</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="64" name="@REPORTER:FORMAT">
 			<value>rtf</value>
@@ -253,6 +258,7 @@
 			<value>71</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="82" name="@SCADE:DEFAULTFILE">
 			<value>Testbench_Integration.xscade</value>
@@ -310,6 +316,7 @@
 			<value>217</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="98" name="@STUDIO:TOOLCONF">
 			<value>Timing and Stack Analysis Tools</value>
@@ -328,6 +335,7 @@
 			<value>217</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="99" name="@STUDIO:TOOLCONF">
 			<value>DiffAnalyzer</value>
@@ -346,6 +354,7 @@
 			<value>217</value>
 			<value>243</value>
 			<value>259</value>
+			<value>279</value>
 		</Prop>
 		<Prop id="105" name="@SCADE:CHECKED">
 			<value>false</value>
@@ -11159,6 +11168,59 @@
 			<value>true</value>
 			<configuration>243</configuration>
 		</Prop>
+		<Prop id="280" name="@GENERATOR:STATIC">
+			<value>true</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="281" name="@GENERATOR:TARGET_DIR">
+			<value>EVC_Standalone</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="282" name="@GENERATOR:DISPLAY_DISABLED_PANELS">
+			<value>..\..\DMI_Control\SCADE Display\DMI.sgfx</value>
+			<value>..\DebugPanel\MainScreen.rgfx</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="283" name="@GENERATOR:OPTLEVEL">
+			<value>3</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="284" name="@GENERATOR:OBSERVE_MODE">
+			<value>4</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="285" name="@GENERATOR:NAME_LENGTH">
+			<value>100</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="286" name="@GENERATOR:USER_CONFIG">
+			<value>$(TargetDir)\user_macros.h</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="287" name="@GENERATOR:SIGNIFICANCE_LENGTH">
+			<value>100</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="288" name="@GNU C:ADD_LINK_OPTIONS">
+			<value>-L../../../../../../test/EnvSim/libenvsim/dist/win32 -lenvsim -ljim</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="290" name="@GENERATOR:SKIP_UNUSED">
+			<value>true</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="291" name="@GENERATOR:EXPAND_MODE">
+			<value>2</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="292" name="@GENERATOR:ROOTNODE">
+			<value>ROOT_IntegrationRemoteGUI</value>
+			<configuration>279</configuration>
+		</Prop>
+		<Prop id="293" name="@GENERATOR:GENERATOR">
+			<value>C QUAL613</value>
+			<configuration>279</configuration>
+		</Prop>
 	</props>
 	<roots>
 		<Folder id="3" extensions="vsp;etp" name="SCADE Libraries">
@@ -11175,6 +11237,7 @@
 				<FileRef id="130" persistAs="Testbench_Integration.xscade"/>
 				<FileRef id="242" persistAs="ROOT_IntegrationTCP.xscade"/>
 				<FileRef id="258" persistAs="RemoteDMI.xscade"/>
+				<FileRef id="278" persistAs="ROOT_IntegrationRemoteGUI.xscade"/>
 			</elements>
 		</Folder>
 		<Folder id="95" name="Design Verifier File">
@@ -11206,5 +11269,6 @@
 		<Configuration id="217" name="SimuWithoutDebug"/>
 		<Configuration id="243" name="SimuTCP"/>
 		<Configuration id="259" name="RemoteDMIexe"/>
+		<Configuration id="279" name="SimuRemoteGUI"/>
 	</configurations>
 </Project>
