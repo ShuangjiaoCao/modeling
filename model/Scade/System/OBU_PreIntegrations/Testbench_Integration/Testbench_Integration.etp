@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project id="1" oid_count="276" defaultConfiguration="21">
+<Project id="1" oid_count="277" defaultConfiguration="21">
 	<props>
 		<Prop id="10" name="@STUDIO:PRODUCT">
 			<value>SC</value>
@@ -11128,7 +11128,7 @@
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="270" name="@GENERATOR:PERIODICITY_PERIOD">
-			<value>100</value>
+			<value>10</value>
 			<configuration>259</configuration>
 		</Prop>
 		<Prop id="271" name="@GENERATOR:PERIODICITY_MODE">
@@ -11153,6 +11153,10 @@
 		</Prop>
 		<Prop id="276" name="@GENERATOR:TARGET_DIR">
 			<value>EVC_TCP</value>
+			<configuration>243</configuration>
+		</Prop>
+		<Prop id="277" name="@GENERATOR:STATIC">
+			<value>true</value>
 			<configuration>243</configuration>
 		</Prop>
 	</props>
