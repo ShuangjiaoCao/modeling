@@ -3020,30 +3020,6 @@
 						<ed:Variable oid="!ed/802bf5/CC5/1BC8/5617d30f7f5d"/>
 					</pragmas>
 				</Variable>
-				<Variable name="_L193">
-					<type>
-						<NamedType>
-							<type>
-								<TypeRef name="API_TIU_Pkg::TIU_Input_msg"/>
-							</type>
-						</NamedType>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/3a4d7c/676C/4A8/561a36f85572"/>
-					</pragmas>
-				</Variable>
-				<Variable name="_L192">
-					<type>
-						<NamedType>
-							<type>
-								<TypeRef name="API_DMI_Pkg::EVC_to_DMI_Message_T"/>
-							</type>
-						</NamedType>
-					</type>
-					<pragmas>
-						<ed:Variable oid="!ed/3a4d7b/676C/4A8/561a36f81fbd"/>
-					</pragmas>
-				</Variable>
 				<Variable name="_L195">
 					<type>
 						<NamedType>
@@ -3054,6 +3030,42 @@
 					</type>
 					<pragmas>
 						<ed:Variable oid="!ed/3a4d9f/676C/4A8/561a38b060a7"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L198">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="bool"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/3a5d99/558B/1614/561fab165b73"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L197">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="API_TIU_Pkg::TIU_Input_msg"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/3a5d98/558B/1614/561fab1629d6"/>
+					</pragmas>
+				</Variable>
+				<Variable name="_L196">
+					<type>
+						<NamedType>
+							<type>
+								<TypeRef name="API_DMI_Pkg::EVC_to_DMI_Message_T"/>
+							</type>
+						</NamedType>
+					</type>
+					<pragmas>
+						<ed:Variable oid="!ed/3a5d97/558B/1614/561fab16b52"/>
 					</pragmas>
 				</Variable>
 			</locals>
@@ -4829,18 +4841,18 @@
 						<ed:Equation oid="!ed/3180eb/CC5/1BC8/5617c039757a"/>
 					</pragmas>
 				</Equation>
-				<!-- _L187 = fby(_L192; 1; Toolbox::cEmptyDMIMessage); -->
+				<!-- _L187 = fby(_L196; 1; Toolbox::cEmptyDMIMessage); -->
 				<Equation>
 					<lefts>
 						<VariableRef name="_L187"/>
 					</lefts>
 					<right>
-						<!-- fby(_L192; 1; Toolbox::cEmptyDMIMessage) -->
+						<!-- fby(_L196; 1; Toolbox::cEmptyDMIMessage) -->
 						<FbyOp name="2">
 							<flows>
 								<IdExpression>
 									<path>
-										<ConstVarRef name="_L192"/>
+										<ConstVarRef name="_L196"/>
 									</path>
 								</IdExpression>
 							</flows>
@@ -4872,36 +4884,7 @@
 						<ed:Equation oid="!ed/802bf4/CC5/1BC8/5617d30f4d57"/>
 					</pragmas>
 				</Equation>
-				<!-- _L192, _L193 = EnvSim::RemoteEVC(_L94); -->
-				<Equation>
-					<lefts>
-						<VariableRef name="_L192"/>
-						<VariableRef name="_L193"/>
-					</lefts>
-					<right>
-						<!-- EnvSim::RemoteEVC(_L94) -->
-						<CallExpression>
-							<operator>
-								<OpCall name="2">
-									<operator>
-										<OperatorRef name="EnvSim::RemoteEVC"/>
-									</operator>
-								</OpCall>
-							</operator>
-							<callParameters>
-								<IdExpression>
-									<path>
-										<ConstVarRef name="_L94"/>
-									</path>
-								</IdExpression>
-							</callParameters>
-						</CallExpression>
-					</right>
-					<pragmas>
-						<ed:Equation oid="!ed/3a4d7a/676C/4A8/561a36f82729"/>
-					</pragmas>
-				</Equation>
-				<!-- tiuToDMI = _L193; -->
+				<!-- tiuToDMI = _L197; -->
 				<Equation>
 					<lefts>
 						<VariableRef name="tiuToDMI"/>
@@ -4909,7 +4892,7 @@
 					<right>
 						<IdExpression>
 							<path>
-								<ConstVarRef name="_L193"/>
+								<ConstVarRef name="_L197"/>
 							</path>
 						</IdExpression>
 					</right>
@@ -4931,6 +4914,52 @@
 					</right>
 					<pragmas>
 						<ed:Equation oid="!ed/3a4d9e/676C/4A8/561a38b07648"/>
+					</pragmas>
+				</Equation>
+				<!-- _L196, _L197, _L198 = EnvSim::RemoteEVC(_L94); -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_L196"/>
+						<VariableRef name="_L197"/>
+						<VariableRef name="_L198"/>
+					</lefts>
+					<right>
+						<!-- EnvSim::RemoteEVC(_L94) -->
+						<CallExpression>
+							<operator>
+								<OpCall name="3">
+									<operator>
+										<OperatorRef name="EnvSim::RemoteEVC"/>
+									</operator>
+								</OpCall>
+							</operator>
+							<callParameters>
+								<IdExpression>
+									<path>
+										<ConstVarRef name="_L94"/>
+									</path>
+								</IdExpression>
+							</callParameters>
+						</CallExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/3a5d96/558B/1614/561fab167a1a"/>
+					</pragmas>
+				</Equation>
+				<!-- _ = _L198; -->
+				<Equation>
+					<lefts>
+						<VariableRef name="_"/>
+					</lefts>
+					<right>
+						<IdExpression>
+							<path>
+								<ConstVarRef name="_L198"/>
+							</path>
+						</IdExpression>
+					</right>
+					<pragmas>
+						<ed:Equation oid="!ed/3a5d9e/558B/1614/561fab2d4577"/>
 					</pragmas>
 				</Equation>
 			</data>
@@ -6501,7 +6530,7 @@
 								</Edge>
 								<EquationGE presentable="!ed/802bd4/CC5/1BC8/5617ce3c1188">
 									<position>
-										<Point x="32200" y="4075"/>
+										<Point x="32226" y="3678"/>
 									</position>
 									<size>
 										<Size width="1016" height="1016"/>
@@ -6509,8 +6538,8 @@
 								</EquationGE>
 								<Edge leftVarIndex="1" rightExprIndex="2" srcEquation="!ed/802bd4/CC5/1BC8/5617ce3c1188" dstEquation="!ed/318068/CC5/1BC8/5617c0394ffe">
 									<positions>
-										<Point x="33205" y="4577"/>
-										<Point x="33840" y="4577"/>
+										<Point x="33232" y="4180"/>
+										<Point x="33840" y="4180"/>
 										<Point x="33840" y="3043"/>
 										<Point x="12541" y="3043"/>
 										<Point x="12541" y="9843"/>
@@ -6533,46 +6562,14 @@
 										<Point x="17198" y="7117"/>
 									</positions>
 								</Edge>
-								<EquationGE presentable="!ed/3a4d7a/676C/4A8/561a36f82729">
-									<position>
-										<Point x="29580" y="4577"/>
-									</position>
-									<size>
-										<Size width="1773" height="1402"/>
-									</size>
-								</EquationGE>
-								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/318068/CC5/1BC8/5617c0394ffe" dstEquation="!ed/3a4d7a/676C/4A8/561a36f82729">
-									<positions>
-										<Point x="28496" y="5292"/>
-										<Point x="29025" y="5292"/>
-										<Point x="29025" y="5292"/>
-										<Point x="29580" y="5292"/>
-									</positions>
-								</Edge>
-								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/3a4d7a/676C/4A8/561a36f82729" dstEquation="!ed/802bd4/CC5/1BC8/5617ce3c1188">
-									<positions>
-										<Point x="31353" y="5054"/>
-										<Point x="31565" y="5054"/>
-										<Point x="31565" y="4577"/>
-										<Point x="32200" y="4577"/>
-									</positions>
-								</Edge>
 								<EquationGE presentable="!ed/3a4d91/676C/4A8/561a382071c6">
 									<position>
-										<Point x="32941" y="5239"/>
+										<Point x="32941" y="4868"/>
 									</position>
 									<size>
 										<Size width="344" height="502"/>
 									</size>
 								</EquationGE>
-								<Edge leftVarIndex="2" rightExprIndex="1" srcEquation="!ed/3a4d7a/676C/4A8/561a36f82729" dstEquation="!ed/3a4d91/676C/4A8/561a382071c6">
-									<positions>
-										<Point x="31353" y="5503"/>
-										<Point x="32570" y="5503"/>
-										<Point x="32570" y="5503"/>
-										<Point x="32941" y="5503"/>
-									</positions>
-								</Edge>
 								<EquationGE kind="OBJ_LIT" presentable="!ed/3a4d9e/676C/4A8/561a38b07648">
 									<position>
 										<Point x="14473" y="45032"/>
@@ -6587,6 +6584,54 @@
 										<Point x="15928" y="45191"/>
 										<Point x="15928" y="45191"/>
 										<Point x="17198" y="45191"/>
+									</positions>
+								</Edge>
+								<EquationGE presentable="!ed/3a5d96/558B/1614/561fab167a1a">
+									<position>
+										<Point x="29845" y="4419"/>
+									</position>
+									<size>
+										<Size width="1773" height="1402"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/318068/CC5/1BC8/5617c0394ffe" dstEquation="!ed/3a5d96/558B/1614/561fab167a1a">
+									<positions>
+										<Point x="28496" y="5292"/>
+										<Point x="29157" y="5292"/>
+										<Point x="29157" y="5133"/>
+										<Point x="29845" y="5133"/>
+									</positions>
+								</Edge>
+								<Edge leftVarIndex="2" rightExprIndex="1" srcEquation="!ed/3a5d96/558B/1614/561fab167a1a" dstEquation="!ed/3a4d91/676C/4A8/561a382071c6">
+									<positions>
+										<Point x="31618" y="5133"/>
+										<Point x="32279" y="5133"/>
+										<Point x="32279" y="5133"/>
+										<Point x="32941" y="5133"/>
+									</positions>
+								</Edge>
+								<Edge leftVarIndex="1" rightExprIndex="1" srcEquation="!ed/3a5d96/558B/1614/561fab167a1a" dstEquation="!ed/802bd4/CC5/1BC8/5617ce3c1188">
+									<positions>
+										<Point x="31618" y="4763"/>
+										<Point x="31909" y="4763"/>
+										<Point x="31909" y="4180"/>
+										<Point x="32226" y="4180"/>
+									</positions>
+								</Edge>
+								<EquationGE presentable="!ed/3a5d9e/558B/1614/561fab2d4577">
+									<position>
+										<Point x="32120" y="5212"/>
+									</position>
+									<size>
+										<Size width="503" height="503"/>
+									</size>
+								</EquationGE>
+								<Edge leftVarIndex="3" rightExprIndex="1" srcEquation="!ed/3a5d96/558B/1614/561fab167a1a" dstEquation="!ed/3a5d9e/558B/1614/561fab2d4577">
+									<positions>
+										<Point x="31618" y="5477"/>
+										<Point x="31988" y="5477"/>
+										<Point x="31988" y="5477"/>
+										<Point x="32385" y="5477"/>
 									</positions>
 								</Edge>
 							</presentationElements>
