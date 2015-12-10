@@ -5,7 +5,7 @@
 <?scade_release version="R16.1" ?>
 
 <fontTable generateAsBitmap="true" generateHalo="true" name="font_table" size="15">
-    <fontDefinition index="0" path="$(SCADEDISPLAY_HOME)/config/fonts/Font T1.nfd"/>
+    <fontDefinition index="0" path="../../../../../../Program Files (x86)/Esterel Technologies/SCADE R16.1/SCADE Display/config/fonts/Font T1.nfd"/>
     <fontDefinition index="1" path="$(SCADEDISPLAY_HOME)/config/fonts/Font T2.nfd"/>
     <fontDefinition index="2" path="$(SCADEDISPLAY_HOME)/config/fonts/Font T3.nfd"/>
     <fontDefinition index="3" path="$(SCADEDISPLAY_HOME)/config/fonts/Font T4.nfd"/>
@@ -22,5 +22,5 @@
     <fontDefinition index="14" path="fonts/VerdanaBold12.nfd"/>
 </fontTable>
 
-<!-- crc32 : 399361642 -->
+<!-- crc32 : 1501563615 -->
 
